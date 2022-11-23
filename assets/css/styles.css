@@ -1,0 +1,120 @@
+/* Estilo body */
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+}
+
+/* Tamaño para los h1 */
+h1{
+    font-size: 4rem;
+}    
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Estilo para agregar pelota de tenis como viñeta de una lista desordenada */
+
+ul{
+    list-style: none;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/viñeta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+/* 
+Estilo para el header */
+
+.header {
+    height: 20rem;
+    padding: 0.5rem;
+    background-image: url(../img/pelorararara.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__texto {
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.barra {
+    padding-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.navegacion {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.navegacion__enlace {
+    font-size: 1.5rem;
+}
+
+.imagen {
+    text-align: left;
+}
+
+/* Estilo para las imagenes de (Nostros, Clases y Contacto) */
+
+.imagen2 {
+    margin-top: 10rem;
+    border-radius: 1rem;
+}
+
+/* Estilo para los productos */
+
+.products {
+    width:  80%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 1rem;
+}
+
+.products img {
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Estilo para los titulos (Tineda, Nosotros, Clases, Contacto) */
+
+.titulos {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Estilo para el footer */
+
+.footer {
+    background-color: black;
+    margin-top: 20rem; 
+    color: white;
+}
+
+
